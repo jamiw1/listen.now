@@ -1,6 +1,6 @@
-header {
+div {
     direction: column;
 }
-main-section {
-    direction: column;
+main {
+    direction: row;
 }
