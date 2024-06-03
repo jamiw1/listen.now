@@ -1,3 +1,6 @@
-div {
+header {
+    direction: column;
+}
+main-section {
     direction: column;
 }
