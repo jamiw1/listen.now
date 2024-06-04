@@ -1,38 +1,56 @@
 <html>
-<head>
-    <link href="styles.css">
-    <script src="main.lua"/>
-    <title>listen.now</title>
-    <meta name="description" content="A (free) music service that lets users upload music. Currently under construction.">
-</head>
-<body>
-<div class="header">
-    <div class="title">
-        <h1 class="hub-title">listen.now</h1>
-        <p class="secondary-title">listen to and submit songs (for free)</p>
-    </div>
-    <hr>
-</div>
-<div class="main">
-    <div class="main-section">
-        <h3>your library</h3>
-        <p>Nothing here yet...</p>
-    </div>
-    <hr>
-    <div class="main-section">
-        <h3>Popular songs</h3>
-        <p>Nothing here yet...</p>
-    </div>
-    <hr>
-    
-    <div class="main-section">
-        <h3>Submit a song</h3>
-        <p>Submit a valid link to an mp3/wav file, and then give some info about the song.</p>
-    </div>
-</div>
-<div class="footer">
-    <hr>
-    <p>listen.now is being developed by the Hypermedia Project</p>
-</div>
-</body>
+    <head>
+        <link href="styles.css">
+        <link href="https://u.cubeupload.com/jamiw/recordsmall.png">
+        <script src="main.lua"/>
+        <title>listen.now</title>
+        <meta name="description" content="A (free) music service that lets users upload music. Currently under construction.">
+    </head>
+    <body>
+        <div class="header">
+            <div class="title">
+                <img src="https://u.cubeupload.com/jamiw/8adlistennowsmall.png" alt="listen.now" class="hub-title"/>
+                <p class="secondary-title">listen to and submit songs (for free)</p>
+            </div>
+            <hr>
+        </div>
+        <div class="main">
+            <div class="main-section">
+                <h3>Your library</h3>
+                <hr>
+                <p>Nothing here yet...</p>
+            </div>
+            <hr>
+            <div class="main-section">
+                <h3>Popular songs</h3>
+                <hr>
+                <p>Nothing here yet...</p>
+            </div>
+            <hr>
+            <div class="main-section">
+                <h3>Submit a song</h3>
+                <hr>
+                <p>Submit a valid link to an mp3/wav file, and then give some info about the song.</p>
+                <input class="submit-audio-link" placeholder="Link to audio file here">
+                <input class="submit-song-title" placeholder="Song title here">
+                <input class="submit-song-album" placeholder="Song album here">
+                <input class="submit-song-artist" placeholder="Song artist here">
+                <button class="submit-song-button">Submit</button>
+            </div>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <h3 class="search-title">Search</h3>
+                <input class="search-input-field" placeholder="Search already existing links">
+                <button class="search-input-submit">  🔍  </button>
+            </div>
+            <hr>
+            <p class="search-result-count">Nothing here yet...</p>
+        </div>
+        <hr>
+        <div class="footer">
+            <p>listen.now is being developed by the Hypermedia Group (v0.1)</p>
+            <p>huge thanks to <a href="https://rosegold.one">rosegold.one</a> for adding audio support to WebX</p>
+        </div>
+    </body>
 </html>

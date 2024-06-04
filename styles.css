@@ -1,6 +1,58 @@
-div {
+body {
     direction: column;
 }
 main {
     direction: row;
+}
+header {
+    direction: column;
+}
+title {
+    direction: column;
+    padding: 10px;
+    margin-bottom: 10px
+}
+main-section {
+    direction: column;
+    padding: 10px;
+}
+search {
+    direction: column;
+    padding: 10px;
+}
+search-title {
+    margin-right: 10px;
+}
+search-bar {
+    margin-bottom: 10px;
+}
+search-input-submit {
+    margin-top: 10px;
+    color: #d700ff;
+    border-color: #d700ff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 10px;
+}
+footer {
+    direction: column;
+    padding: 10px;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    margin-top: 10px;
+}
+submit-song-button {
+    padding: 5px;
+    margin-top: 10px;
+    color: #d700ff;
+    border-color: #d700ff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
 }
